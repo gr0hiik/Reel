@@ -1144,7 +1144,7 @@
                   responsive && $.each(responsive_keys, function(i, key){ truescale[key]= get(key) });
                   css(____+___+dot(klass), { display: _block_ });
                   css(dot(cache_klass), { position: 'fixed', left: px(-100), top: px(-100) }, true);
-                  css(dot(cache_klass)+___+_img_, { position: _absolute_, width: 10, height: 10 }, true);
+                  css(dot(cache_klass)+___+_img_, { position: _absolute_, visibility: _hidden_ }, true);
                   pool.bind(on.pool);
                   t.trigger(shy ? 'prepare' : 'setup')
                 },
